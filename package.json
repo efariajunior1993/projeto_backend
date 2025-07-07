@@ -1,0 +1,33 @@
+{
+  "name": "sghss-api",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão Hospitalar - API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "mysql",
+    "mariadb",
+    "hospital",
+    "api"
+  ],
+  "author": "Edson Jose Faria Junior",
+  "license": "RU3320042",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
